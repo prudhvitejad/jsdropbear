@@ -3,7 +3,7 @@ jsdropbear is a simple and basic custom programming language interpreter built i
 
 ---
 
-![Image](.\resources\diagram.png "jsdropbear interpreter workflow")
+![Image](./resources/diagram.png "jsdropbear interpreter workflow")
 
 ---
 
