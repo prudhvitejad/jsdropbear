@@ -7,6 +7,52 @@ jsdropbear is a simple and basic custom programming language interpreter built i
 
 ---
 
+## Table of Contents
+1. [Video Tutorials](#video-tutorials)
+2. [Slides & Readings](#slides--readings)
+   - [Introduction to Compiler Design](#introduction-to-compiler-design)
+   - [Syntax Analysis](#syntax-analysis)
+   - [Top-Down Parsers](#top-down-parsers)
+3. [Full Course on Programming Languages](#full-course-on-programming-languages)
+
+---
+
+## Video Tutorials
+You can explore video tutorials on Compiler Design and Programming Languages here:
+
+- [Compiler Design Playlist (Neso Academy - YouTube)](https://youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q)
+  
+  This YouTube playlist covers various aspects of Compiler Design and programming language theory.
+
+---
+
+## Slides & Readings
+
+### Introduction to Compiler Design
+- [Introduction to Compiler Design (Neso Academy)](https://www.nesoacademy.org/cs/12-compiler-design/ppts/01-introduction-to-compiler-design)
+
+  This presentation provides a comprehensive introduction to the topic of Compiler Design, its phases, and important concepts.
+
+### Syntax Analysis
+- [Syntax Analysis (Neso Academy)](https://www.nesoacademy.org/cs/12-compiler-design/ppts/02-syntax-analysis)
+
+  Learn about the process of syntax analysis, which checks whether a sequence of tokens matches the syntax rules of a programming language.
+
+### Top-Down Parsers
+- [Top-Down Parsers (Neso Academy)](https://www.nesoacademy.org/cs/12-compiler-design/ppts/03-top-down-parsers)
+
+  This presentation delves into top-down parsing techniques, including recursive descent parsing and LL parsers.
+
+---
+
+## Full Course on Programming Languages
+- [Programming Language Fundamentals (Frontend Masters)](https://frontendmasters.com/courses/programming-language/)
+
+  This is a complete course on the fundamentals of programming languages, exploring language design, compilers, interpreters, and more.
+
+---
+
+
 ## 🚀 Features
 - Custom **REPL (Read-Eval-Print Loop)** for interactive JavaScript execution.
 - **Lexical Analysis** to tokenize the input source code.
