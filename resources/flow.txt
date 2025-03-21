@@ -1,0 +1,29 @@
+Mapping:
+
+<component_mapping>
+1. Input Handling & REPL: 
+   - bin/dropbear
+   - src/repl.js
+
+2. Lexical Analysis (Tokenizer): 
+   - src/tokenize.js
+
+3. Parsing: 
+   - src/parse.js 
+   - src/parse-program.js
+
+4. AST Processing:
+   - Traversal: src/traverse.js
+   - Transformation: src/transform.js
+   - Special Forms: src/special-forms.js
+   - Standard Library Integrations: src/standard-library.js
+
+5. Evaluation:
+   - src/evaluate.js
+
+6. Code Generation (AST to JavaScript): 
+   - src/to-javascript.js
+
+7. Utility & Entrypoint:
+   - src/index.js
+</component_mapping>
