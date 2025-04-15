@@ -2,6 +2,9 @@ const { isOpeningParenthesis, isClosingParenthesis } = require('./identify');
 const { specialForms } = require('./special-forms');
 const { peek, pop } = require('./utilities');
 
+/**
+  Converts a flat list of tokens into a nested array structure based on parentheses.
+*/
 const parenthesize = tokens => {
   const token = pop(tokens);
 
@@ -19,6 +22,22 @@ const parenthesize = tokens => {
   return token;
 };
 
+/**
+  Transforms the nested array structure into an Abstract Syntax Tree (AST).
+*/
+/*
+  The .map() function creates a new array by applying a callback function to each element of an existing array.
+  A callback is just a function that gets passed into another function to be called later.
+  Eg:
+  function square(x) {
+    return x * x;
+  }
+
+  const numbers = [1, 2, 3, 4];
+  const squared = numbers.map(square);
+  console.log(squared); // [1, 4, 9, 16]
+
+*/
 const parse = tokens => {
   if (Array.isArray(tokens)) {
     const [first, ...rest] = tokens;

@@ -19,6 +19,9 @@ const define = node => {
   environment[node.identifier.name] = node.assignment.value;
 };
 
+/**
+ * Takes in an AST (Abstract Syntax Tree) and executes it 
+ */
 const evaluate = node => {
   if (node.type === 'VariableDeclaration') return define(node);
   if (node.type === 'CallExpression') return apply(node);

@@ -1,3 +1,36 @@
+1. Input Handling & REPL: 
+   - bin/dropbear
+   - src/repl.js
+
+2. parseAndEvaluate.js(tokenize, parse, transform, evaluate)
+
+	2.1 Lexical Analysis (Tokenizer): 
+	   - src/tokenize.js
+	2.2 Parsing: (Building AST)
+   	   - src/parse.js 
+   	   - src/parse-program.js
+	2.3 AST Processing:
+   	   - Transformation: src/transform.js
+	   - Traversal: src/traverse.js
+	2.4. Evaluation:(Takes in an AST (Abstract Syntax Tree) and executes it)
+   	   - src/evaluate.js
+
+------------------------------------------------------------------------------------------
+
+.slice(n) - Skips the first n elements
+Eg:
+arr = [10, 20, 30, 40, 50]
+console.log(arr)
+console.log(arr.slice(2))
+console.log(arr)
+
+Output:
+[ 10, 20, 30, 40, 50 ]
+[ 30, 40, 50 ]
+[ 10, 20, 30, 40, 50 ]
+
+------------------------------------------------------------------------------------------
+
 Mapping:
 
 <component_mapping>
